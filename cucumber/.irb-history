@@ -1,0 +1,50 @@
+wait_for_elements_exist("android.widget.Button marked:'Buscar'", :timeout => 10)
+query('*')
+wait_for_elements_exist("android.view.View marked:'Rua Girassol'", :timeout => 10)
+wait_for_elements_exist("android.widget.TableLayout marked:'Rua Girassol'", :timeout => 10)
+query('Text')
+query('')
+query('*')
+start_test_server_in_background
+query('*')
+query('android.widget.TextView')
+query('android.widget.TextView' id: 'txtBC_logradouro')
+query('android.widget.TextView' id:'txtBC_logradouro')
+query('android.widget.TextView', id:'txtBC_logradouro')
+query('android.widget.TextView')
+query('android.widget.TextView', text:'IBGE 3550308')
+a = query('android.widget.TextView', text:'IBGE 3550308')
+a = query("android.widget.TextView text:'IBGE 3550308'")
+a
+a
+a
+a
+a
+a
+a = query("android.widget.TextView text:'IBGE 3550308'")
+query("android.widget.TextView text:'IBGE 3550308'", :get_text)
+query("android.widget.TextView text:'IBGE 3550308'", :getText)
+@teste = query("android.widget.TextView text:'IBGE 3550308'", :getText)
+@teste
+@teste = query("android.widget.TextView id:'txtBC_ibge'", :getId)
+@teste = query("android.widget.TextView id:'txtBC_ibge'", :getText)
+@teste = query("android.widget.TextView id:'txtBC_ibge'", :getRec)
+@teste = query("android.widget.TextView id:'txtBC_ibge'", :getText)
+@teste = query("android.widget.TextView id:'txtBC_ibge'", :getText)
+puts @teste
+keyboard_enter_text(@teste)
+@teste = query("android.widget.TextView id:'txtBC_ibge'", :getText)
+puts @teste
+@teste = query("android.widget.TextView id:'txtBC_cep'", :getText)
+keyboard_enter_text(@teste)
+keyboard_enter_text(@teste)
+query('android.widget.TextView')
+query('android.widget.TextView')[0]
+a = query('android.widget.TextView')[0]
+a["id"]
+a["id"]
+a["id"].st
+a["id"].st
+a = a["id"].st
+query('android.widget.TextView')[0]
+exit

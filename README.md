@@ -23,5 +23,11 @@ git commit -m "mensagem" faz commit (Coloque a mensagem)
 git commit -m "Esse é um exemplo dos comandos basicos do git."
 
 git push empurra para o repositório
-git push 
+git push
+
+https://goo.gl/N0VVNl - Canned Steps
+https://goo.gl/Qyb1gZ - Documentação calabash-android
+https://github.com/calabash/calabash-android - Pagina principal da gem
+https://goo.gl/izvbB4 - Doc Ios
+https://goo.gl/Zyb0Dr - Doc Ruby Docs
 ```
