@@ -11,3 +11,7 @@ Cenario: Cadastro de novo usuário
   E informar o telefone
   Então deverei ser direcionado para a tela de cadastro
   E preencho os campos iniciais
+  E preencho os dados principais
+  E escolho a escolaridade
+  E escolho a area de atuacao
+  Então finalizo o cadastro
