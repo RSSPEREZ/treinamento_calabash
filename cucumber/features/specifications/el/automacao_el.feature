@@ -2,6 +2,8 @@
 
 Funcionalidade: Cadastrando de usuário
 
+@dados_cadastrais
+@cadastro_el
 Cenario: Cadastro de novo usuário
 
   Dado que eu acesse a home do aplicativo
